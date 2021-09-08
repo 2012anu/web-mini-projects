@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+body {
+  background-image: url(bakary.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+  text-decoration: wavy;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: darkorange;
+  padding-top: 40px;
+}
+h2 {
+  text-align: end;
+  color: gold;
+  padding-top: 40%;
+}
+.item {
+  list-style-type: square;
+}
+.wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
+.wrapper ul {
+  list-style-type: none;
+  list-style-image: none;
+  /*this will keep in exact middle place*/
+  margin-top: 12%;
+  padding-right: 35%;
+}
+.wrapper ul li {
+  /*this will make black box*/
+  background: purple;
+  /*this will give proper width*/
+  width: 170px;
+  /*this will give border for every item in list*/
+  border: 1px solid #fff;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  float: left;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  position: relative;
+  font-family: poppins;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.wrapper ul li:hover {
+  background: yellow;
+}
+/* this css will make thoes sub menu to hide */
+.wrapper ul ul {
+  display: none;
+}
+/* this will  make submenu*/
+.wrapper ul li:hover > ul {
+  display: block;
+}

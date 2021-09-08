@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  color: whitesmoke;
+  padding: 20px;
+  text-align: center;
+  background: scroll;
+  background: rgba(0, o, o, 0.5);
+}
+.nav {
+  list-style-type: none;
+  display: -webkit-inline-flex;
+}
+.nav li {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 228px;
+  border-bottom: 2px solid white;
+}
+.nav li a {
+  color: white;
+  font-size: 18px;
+  font-family: serif;
+  text-decoration: none;
+}
